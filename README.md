@@ -1,5 +1,4 @@
 # recsys-tutorial
-Tutorials and examples of various recommender systems in industrial applications
 
 Articles & videos on RecSys in industry:
 - **OK.ru**: graph based recsys, [article](https://habr.com/ru/company/odnoklassniki/blog/499192/)
