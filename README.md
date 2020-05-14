@@ -8,3 +8,4 @@ Articles & videos on RecSys in industry:
 - **Yandex.Dzen**: fit ALS -> fit Catboost on warm embeddings to predict warm&cold embeddings, [15-25min in video](https://www.youtube.com/watch?v=TaUqh_CeCPc&t=126s)   
 - **Ozon**: Recommending additional item with NN
 - **VK**: Directly optimizing business metrics
+- **Uber.Eats**: Multi objective optimisation in recsys, [article](https://eng.uber.com/uber-eats-recommending-marketplace/)
