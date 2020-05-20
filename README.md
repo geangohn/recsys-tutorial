@@ -1,5 +1,8 @@
 # recsys-tutorial
 
+Tutorials on libraries:
+- **implicit**: full data & model pipeline, [article](https://www.ethanrosenthal.com/2016/10/19/implicit-mf-part-1/) 
+
 Articles & videos on RecSys in industry:
 - **OK.ru**: graph based recsys, [article](https://habr.com/ru/company/odnoklassniki/blog/499192/)
 - **HH.ru**: classic 2 level model
