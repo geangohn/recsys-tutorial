@@ -2,6 +2,7 @@
 
 Tutorials on libraries:
 - **implicit**: full data & model pipeline, [article](https://www.ethanrosenthal.com/2016/10/19/implicit-mf-part-1/) 
+- **LightFM**: [article](https://www.ethanrosenthal.com/2016/11/07/implicit-mf-part-2/) 
 
 Articles & videos on RecSys in industry:
 - **OK.ru**: graph based recsys, [article](https://habr.com/ru/company/odnoklassniki/blog/499192/)
