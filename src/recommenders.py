@@ -21,13 +21,20 @@ class MainRecommender:
 
     def __init__(self, data, weighting=True):
 
+        # Топ покупок каждого юзера
         self.top_purchases = data.groupby(['user_id', 'item_id'])['quantity'].count().reset_index()
         self.top_purchases.sort_values('quantity', ascending=False, inplace=True)
         self.top_purchases = self.top_purchases[self.top_purchases['item_id'] != 999999]
 
+        # Топ покупок по всему датасету
+        self.overall_top_purchases = data.groupby('item_id')['quantity'].count().reset_index()
+        self.overall_top_purchases.sort_values('quantity', ascending=False, inplace=True)
+        self.overall_top_purchases = self.overall_top_purchases[self.overall_top_purchases['item_id'] != 999999]
+        self.overall_top_purchases = self.overall_top_purchases.item_id.tolist()
+
         self.user_item_matrix = self._prepare_matrix(data)  # pd.DataFrame
         self.id_to_itemid, self.id_to_userid, \
-        self.itemid_to_id, self.userid_to_id = self._prepare_dicts(self.user_item_matrix)
+            self.itemid_to_id, self.userid_to_id = self._prepare_dicts(self.user_item_matrix)
 
         if weighting:
             self.user_item_matrix = bm25_weight(self.user_item_matrix.T).T
@@ -37,10 +44,10 @@ class MainRecommender:
 
     @staticmethod
     def _prepare_matrix(data):
-        # your_code
+        """Готовит user-item матрицу"""
         user_item_matrix = pd.pivot_table(data,
                                           index='user_id', columns='item_id',
-                                          values='quantity',  # Можно пробоват ьдругие варианты
+                                          values='quantity',  # Можно пробовать другие варианты
                                           aggfunc='count',
                                           fill_value=0
                                           )
@@ -101,21 +108,21 @@ class MainRecommender:
 
     def _get_similar_item(self, item_id):
         """Находит товар, похожий на item_id"""
-        recs = self.model.similar_items(self.itemid_to_id[item_id], N=2)
-        top_rec = recs[1][0]
+        recs = self.model.similar_items(self.itemid_to_id[item_id], N=2)  # Товар похож на себя -> рекомендуем 2 товара
+        top_rec = recs[1][0]  # И берем второй (не товар из аргумента метода)
         return self.id_to_itemid[top_rec]
 
     def _extend_with_top_popular(self, recommendations, N=5):
         """Если кол-во рекоммендаций < N, то дополняем их топ-популярными"""
 
         if len(recommendations) < N:
-            recommendations.extend(self.top_purchases.item_id.tolist())
+            recommendations.extend(self.overall_top_purchases[:N])
             recommendations = recommendations[:N]
 
         return recommendations
 
     def _get_recommendations(self, user, model, N=5):
-        """Реокмендации через стардартные библиотеки implicit"""
+        """Рекомендации через стардартные библиотеки implicit"""
 
         self._update_dict(user_id=user)
         res = [self.id_to_itemid[rec[0]] for rec in model.recommend(userid=self.userid_to_id[user],
@@ -130,10 +137,8 @@ class MainRecommender:
         assert len(res) == N, 'Количество рекомендаций != {}'.format(N)
         return res
 
-        return res
-
     def get_als_recommendations(self, user, N=5):
-        """Реокмендации через стардартные библиотеки implicit"""
+        """Рекомендации через стардартные библиотеки implicit"""
 
         self._update_dict(user_id=user)
         return self._get_recommendations(user, model=self.model, N=N)
