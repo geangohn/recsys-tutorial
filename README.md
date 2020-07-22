@@ -12,6 +12,7 @@ Articles & videos on RecSys in industry:
 - **Ozon**: Recommending additional item with NN
 - **VK**: Directly optimizing business metrics
 - **Uber.Eats**: Multi objective optimisation in recsys, [article](https://eng.uber.com/uber-eats-recommending-marketplace/)
+- **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
 
 Cool articles:
 - [Serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) 
