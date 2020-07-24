@@ -17,3 +17,4 @@ Articles & videos on RecSys in industry:
 
 Cool articles:
 - [Serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) 
+- How to build [W2V](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) for item recommendations in retail
