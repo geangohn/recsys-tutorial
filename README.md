@@ -16,5 +16,5 @@ Articles & videos on RecSys in industry:
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
 
 Cool articles:
-- [Serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) 
+- Measure user surprise by [serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) metric
 - How to build [W2V](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) for item recommendations in retail
