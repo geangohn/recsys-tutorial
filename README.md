@@ -17,4 +17,5 @@ Articles & videos on RecSys in industry:
 
 Cool articles:
 - Measure user surprise by [serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) metric
-- How to build [W2V](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) for item recommendations in retail
+- How to build [Item2Vec](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) (or W2V) for item recommendations in retail
+- How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
