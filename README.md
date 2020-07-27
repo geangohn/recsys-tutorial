@@ -14,6 +14,7 @@ Articles & videos on RecSys in industry:
 - **Uber.Eats**: Multi objective optimisation in recsys, [article](https://eng.uber.com/uber-eats-recommending-marketplace/)
 - **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
+- **Pinterest**: Personal [notification volume](https://medium.com/pinterest-engineering/user-state-based-notification-volume-optimization-7764118f73ff) optimization
 
 Cool articles:
 - Measure user surprise by [serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) metric
