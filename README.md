@@ -1,8 +1,9 @@
 # recsys-tutorial
 
-### Tutorials on libraries:
+### Tutorials:
 - **implicit**: full data & model pipeline, [article](https://www.ethanrosenthal.com/2016/10/19/implicit-mf-part-1/) 
 - **LightFM**: [article](https://www.ethanrosenthal.com/2016/11/07/implicit-mf-part-2/) 
+- How to build [Item2Vec](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) (or W2V) for item recommendations in retail
 
 ### Classic RecSys:
 - **OK.ru**: graph based recsys, [article](https://habr.com/ru/company/odnoklassniki/blog/499192/)
@@ -13,8 +14,8 @@
 - **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
 
-
 ### Search
+- How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
 
 ### Upsell 
 - **Avito**: Recommending additional item - [upsell](https://habr.com/ru/company/avito/blog/491942/) with advanced W2V
@@ -27,5 +28,3 @@
 
 ### Cool articles:
 - Measure user surprise by [serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) metric
-- How to build [Item2Vec](https://www.analyticsvidhya.com/blog/2019/07/how-to-build-recommendation-system-word2vec-python/) (or W2V) for item recommendations in retail
-- How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
