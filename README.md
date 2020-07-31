@@ -10,13 +10,13 @@
 - **HH.ru**: classic 2 level model of search at hh.ru, [article](https://habr.com/ru/company/hh/blog/347276/)
 - **Okko competition**: classic 2 level model, [article](https://habr.com/ru/post/447376/) 
 - **Yandex.Dzen**: fit ALS -> fit Catboost on warm embeddings to predict warm&cold embeddings, [15-25min in video](https://www.youtube.com/watch?v=TaUqh_CeCPc&t=126s)   
-- **Avito**: [FAISS](https://habr.com/ru/company/avito/blog/488658/) for fast similar embedding search
 - **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
 
 ### Search
 - How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
-- [Similar vectors](https://m.habr.com/ru/company/mailru/blog/338360/) search with __Nmslib__ (HNSW - hierarchical navigable small world), FAISS (embeddings space K-means clustering + Product quantizer) and Annoy (divides embeddings space with a binary tree) 
+**Avito**: [FAISS](https://habr.com/ru/company/avito/blog/488658/) for fast similar embedding search
+- [Similar vectors](https://m.habr.com/ru/company/mailru/blog/338360/) search with Nmslib (HNSW - hierarchical navigable small world), FAISS (embeddings space K-means clustering + Product quantizer) and Annoy (divides embeddings space with a binary tree) 
 - [ElasticSearch](https://m.habr.com/ru/post/280488/) basics
 
 ### Upsell 
