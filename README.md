@@ -9,7 +9,7 @@ Articles & videos on RecSys in industry:
 - **HH.ru**: classic 2 level model of search at hh.ru, [article](https://habr.com/ru/company/hh/blog/347276/)
 - **Okko competition**: classic 2 level model, [article](https://habr.com/ru/post/447376/) 
 - **Yandex.Dzen**: fit ALS -> fit Catboost on warm embeddings to predict warm&cold embeddings, [15-25min in video](https://www.youtube.com/watch?v=TaUqh_CeCPc&t=126s)   
-- **Avito**: Recommending additional item - [upsell](https://habr.com/ru/company/avito/blog/491942/) with NN
+- **Avito**: Recommending additional item - [upsell](https://habr.com/ru/company/avito/blog/491942/) with advanced W2V
 - **VK**: Directly optimizing business metrics
 - **Uber.Eats**: Multi objective optimisation in recsys, [article](https://eng.uber.com/uber-eats-recommending-marketplace/)
 - **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
