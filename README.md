@@ -16,7 +16,7 @@
 
 ### Search
 - How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
-- [Similar vectors](https://m.habr.com/ru/company/mailru/blog/338360/) search with Nmslib, FAISS and Annoy
+- [Similar vectors](https://m.habr.com/ru/company/mailru/blog/338360/) search with Nmslib (HNSW - hierarchical navigable small world), FAISS (embeddings space K-means clustering + Product quantizer) and Annoy
 - [ElasticSearch](https://m.habr.com/ru/post/280488/) basics
 
 ### Upsell 
