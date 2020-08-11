@@ -19,6 +19,7 @@
 - **Avito**: [FAISS](https://habr.com/ru/company/avito/blog/488658/) for fast similar embedding search
 - [Similar vectors](https://m.habr.com/ru/company/mailru/blog/338360/) search with Nmslib (HNSW - hierarchical navigable small world), FAISS (embeddings space K-means clustering + Product quantizer) and Annoy (divides embeddings space with a binary tree) 
 - [ElasticSearch](https://m.habr.com/ru/post/280488/) basics
+- **DoorDash** Elasticsearch meets [logistic regression](https://medium.com/@DoorDash/powering-search-recommendations-at-doordash-8310c5cfd88c) 
 
 ### Upsell 
 - **Avito**: Recommending additional item - [upsell](https://habr.com/ru/company/avito/blog/491942/) with advanced W2V
