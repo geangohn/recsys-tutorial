@@ -31,6 +31,7 @@
 - **Uber.Eats**: Multi objective optimisation in recsys, [article](https://eng.uber.com/uber-eats-recommending-marketplace/)
 - **Avito**: [Multi-objective optimization](https://www.highload.ru/moscow/2018/abstracts/4182) in search
 - **VK**: Directly optimizing business metrics
+- **GlowByte Consulting**: Customer [communication chains](https://m.habr.com/ru/company/glowbyte/blog/514514/) optimization with RL
 
 ### Cool articles:
 - Measure user surprise by [serendipidy](https://towardsdatascience.com/serendipity-accuracys-unpopular-best-friend-in-recommender-systems-ca079b493f3c) metric
