@@ -13,6 +13,7 @@
 - **TikTok**: No use of popularity features! [post](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/) 
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
 - **DoorDash**: [Store2Vec](https://blog.doordash.com/personalized-store-feed-with-vector-embeddings-251ad7a2c09a) as a feature in recommendations
+- **Pinterest**: [Multi-taste](https://link.medium.com/9J1sxl1QS8) user embeddings 
 
 ### Search
 - How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
