@@ -14,6 +14,7 @@
 - **Instagram**: Insights on candidate generation [articles](https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882) 
 - **DoorDash**: [Store2Vec](https://blog.doordash.com/personalized-store-feed-with-vector-embeddings-251ad7a2c09a) as a feature in recommendations
 - **Pinterest**: [Multi-taste](https://link.medium.com/9J1sxl1QS8) user embeddings 
+- **AirBnb**: [Hotel2Vec](https://link.medium.com/4RvvwV29V8) with novel positive samples approach
 
 ### Search
 - How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
