@@ -26,6 +26,9 @@
 ### Upsell 
 - **Avito**: Recommending additional item - [upsell](https://habr.com/ru/company/avito/blog/491942/) with advanced W2V
 
+### Uplift
+- Directly optimizing **Uplift** in recsys by [change in target](https://recsys.acm.org/wp-content/uploads/2019/09/recsys-19-material-uplift.pdf) 
+
 ### Optimization
 - **Avito** [Multi-armed bandits](https://m.habr.com/ru/company/avito/blog/417571/?_ga=2.55507619.909483613.1596129867-1023641029.1575324164) for item2item recommendations
 - **RecSys 2018** paper on [multi-armed badits](http://jamesmc.com/blog/2018/10/1/explore-exploit-explain) for explainable recommendations
