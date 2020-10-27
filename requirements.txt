@@ -49,7 +49,7 @@ configparser==5.0.0
 contextlib2==0.6.0.post1
 convertdate==2.2.0
 coremltools==3.3
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.17
 cytoolz==0.10.1
