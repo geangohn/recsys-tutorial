@@ -17,6 +17,8 @@
 - **Pinterest**: [Multi-taste](https://link.medium.com/9J1sxl1QS8) user embeddings 
 - **AirBnb**: [Hotel2Vec](https://link.medium.com/4RvvwV29V8) with novel positive samples approach
 
+### SOTA
+- [HRNN](https://link.medium.com/z8yMRWMfEbb), Temporal-Contextual Recommendation in Real-Time
 ### Search
 - How to use W2V and FastText for search: [Query2Vec](https://medium.com/coursera-engineering/query2vec-2f6070083bda) 
 - **Avito**: [FAISS](https://habr.com/ru/company/avito/blog/488658/) for fast similar embedding search
