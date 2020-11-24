@@ -1,5 +1,7 @@
 # recsys-tutorial
 
+ML meets [Economics](https://blog.mldb.ai/blog/posts/2016/01/ml-meets-economics/) 
+
 ### Tutorials:
 - **implicit**: full data & model pipeline, [article](https://www.ethanrosenthal.com/2016/10/19/implicit-mf-part-1/) 
 - **LightFM**: [article](https://www.ethanrosenthal.com/2016/11/07/implicit-mf-part-2/) 
