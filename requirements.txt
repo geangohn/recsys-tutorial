@@ -130,7 +130,7 @@ lightgbm==2.3.0
 llvmlite==0.32.0
 locket==0.2.0
 lunardate==0.2.0
-lxml==4.5.0
+lxml==4.6.2
 Mako==1.1.2
 Markdown==3.2.2
 MarkupSafe==1.1.1
