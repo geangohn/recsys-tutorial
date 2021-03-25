@@ -226,7 +226,7 @@ python-language-server==0.31.10
 python-slugify==4.0.0
 pytz==2019.3
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==18.1.1
 QDarkStyle==2.8.1
 QtAwesome==0.7.0
