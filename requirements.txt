@@ -296,7 +296,7 @@ turicreate==6.2.2
 typing-extensions==3.7.4.1
 ujson==1.35
 unicodecsv==0.14.1
-urllib3==1.25.8
+urllib3==1.26.5
 watchdog==0.10.2
 wcwidth==0.1.9
 webencodings==0.5.1
