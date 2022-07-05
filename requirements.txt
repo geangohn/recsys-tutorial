@@ -294,7 +294,7 @@ traitlets==4.3.3
 traittypes==0.2.1
 turicreate==6.2.2
 typing-extensions==3.7.4.1
-ujson==1.35
+ujson==5.4.0
 unicodecsv==0.14.1
 urllib3==1.25.8
 watchdog==0.10.2
