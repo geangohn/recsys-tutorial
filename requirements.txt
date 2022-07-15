@@ -59,7 +59,7 @@ decorator==4.4.2
 defusedxml==0.6.0
 dgl==0.4.1
 diff-match-patch==20181111
-distributed==2.15.0
+distributed==2021.10.0
 docker==4.2.0
 docutils==0.16
 entrypoints==0.3
